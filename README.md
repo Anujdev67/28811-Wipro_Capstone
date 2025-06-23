@@ -99,6 +99,51 @@ New-NetFirewallRule -DisplayName "Allow RDP" -Direction Inbound -Protocol TCP -L
 For questions or contributions, open an issue or submit a pull request.
 
 ```
+Here’s a fresh batch of Root Cause Analysis (RCA) content you can drop into your GitHub `README.md`, complete with emoji-style icons for visual clarity and structure:
 
-Want me to help you generate the folder structure or add visuals like a timeline or attack flow diagram? I can also help you turn this into a PDF or HTML page.
+---
+
+## 🧩 Root Cause Analysis (RCA) Components
+
+### 🔍 Problem Statement
+Clearly define the issue observed during the security assessment or incident.
+
+> *Example:* "Unauthorized access was detected on the Windows Server via RDP."
+
+### 🧠 Root Cause
+Identify the underlying reason the issue occurred.
+
+> *Example:* "Lack of account lockout policy allowed brute-force login attempts."
+
+### 🧪 Contributing Factors
+List any secondary issues that made the problem worse.
+
+- 🔓 Weak password policy  
+- 🌐 Unrestricted RDP access  
+- 🚫 No intrusion detection or alerting  
+
+### 🧰 Tools & Techniques Used
+Mention tools used for analysis and testing.
+
+- 🛠️ Hydra for brute-force simulation  
+- 🧱 PowerShell for firewall rule creation  
+- 📜 Event Viewer for log analysis  
+
+### 📈 Impact Assessment
+Describe the potential or actual damage caused.
+
+> *Example:* "Successful brute-force attack could lead to full system compromise."
+
+### 🛡️ Mitigation & Prevention
+Summarize the fixes and how to prevent recurrence.
+
+- ✅ Enforced account lockout  
+- 🔐 Enabled MFA  
+- 🔥 Restricted RDP to internal IPs  
+- 📊 Enabled login failure alerts  
+
+---
+Contact - AnujDev67
+or DM 
+
 
